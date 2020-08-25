@@ -105,7 +105,7 @@
       $.ajax({
         type: "GET",
         //YOUR TURN: Replace with csv export link
-        url: 'https://docs.google.com/spreadsheets/d/1gRy2k4P9RyLkiuoGXflSWQthZ6kT0KxYc-fV9GCKEfI/gviz/tq?tqx=out:csv&sheet=prospection',
+        url: 'https://docs.google.com/spreadsheets/d/1gRy2k4P9RyLkiuoGXflSWQthZ6kT0KxYc-fV9GCKEfI/gviz/tq?tqx=out:csv&sheet=prospection_siege_actif',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
